@@ -13,7 +13,7 @@ ssh -i chave.pem ubuntu@3.233.18.65<br>
 apt-get update<br>
 apt-get install php-fpm<br>
 apt-get install mysql<br>
-apt-get instal phpmysql<br>
+apt-get instal php-mysqli<br>
 apt-get install nginx<br>
 apt-get install openvpn<br>
 <br>
