@@ -28,3 +28,7 @@ systemctl stop openvpn<br>
 opevpn --config server.conf<br>
 opevpn --config client.conf<br>
 
+# loadbalancer/proxy reverso/php-fpm
+cd etc/nginx
+cd var/www/html
+ln -s /etc/nginx/sites-available/website.conf /etc/nginx/sites-enabled
