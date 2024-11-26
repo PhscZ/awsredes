@@ -7,3 +7,5 @@ loadbalancer: 3.223.88.39<br>
 
 ssh -i chave.pem ubuntu@18.211.145.190<br>
 ssh -i chave.pem ubuntu@3.233.18.65<br>
+
+<img src="topologia.png" width="800"><br>
