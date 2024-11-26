@@ -10,21 +10,21 @@ ssh -i chave.pem ubuntu@18.211.145.190<br>
 ssh -i chave.pem ubuntu@3.233.18.65<br>
 
 # apt-get install
-apt-get update
-apt-get install php-fpm
-apt-get install mysql
-apt-get instal phpmysql
-apt-get install nginx
-apt-get install openvpn
-
+apt-get update<br>
+apt-get install php-fpm<br>
+apt-get install mysql<br>
+apt-get instal phpmysql<br>
+apt-get install nginx<br>
+apt-get install openvpn<br>
+<br>
 <img src="topologia.png" width="800"><br>
 
 # openvpn
-cd etc/openvpn
-nano server.conf
-cat server.conf > client.conf
-openvpn --genkey --secret chave
-systemctl stop openvpn
-opevpn --config server.conf
-opevpn --config client.conf
+cd etc/openvpn<br>
+nano server.conf<br>
+cat server.conf > client.conf<br>
+openvpn --genkey --secret chave<br>
+systemctl stop openvpn<br>
+opevpn --config server.conf<br>
+opevpn --config client.conf<br>
 
