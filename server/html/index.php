@@ -1,5 +1,3 @@
-```
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -57,4 +55,3 @@ $conn->close();
 
 </body>
 </html>
-```
